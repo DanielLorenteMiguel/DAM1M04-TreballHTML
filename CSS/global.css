@@ -23,8 +23,16 @@ header .logo {
   margin: 10px;
 }
 
-nav {
+.navlink a{
   font-family: "Press Start 2P", system-ui;
   color: white;
   margin: 30px;
+  text-decoration: none;
+}
+.navlink a:hover {
+  color: gray;
+}
+
+.navlink .actualp {
+  color: black
 }
