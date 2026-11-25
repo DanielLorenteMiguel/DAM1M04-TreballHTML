@@ -1,5 +1,45 @@
-.press-start-2p-regular {
+body {
+  min-height: 1000px;
+  background: linear-gradient(to bottom, #101010, #303030);
+}
+
+.tarjeta {
+  display: flex;
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+}
+
+.tarjeta-imagen {
+  width: 180px;
+  object-fit: cover;
+  border-right: 1px solid #333333;
+}
+
+.tarjeta-contenido {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 1.4rem;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+}
+
+.tarjeta-texto {
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  color: #cccccc;
+  line-height: 1.5;
 }
