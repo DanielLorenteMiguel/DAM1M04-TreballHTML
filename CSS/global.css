@@ -1,13 +1,17 @@
 body {
-  min-height: 1000px;
+  margin:0;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #101010, #303030);
+}
+
+main {
+  margin-top: 80px;
 }
 
 .tarjeta {
   display: flex;
-  width: 100%;
-  max-width: 1000px; 
-  margin: 0 auto;
+  width: 100%; 
+  margin: auto;
   background-color: #111111;
   color: #ffffff;
   border-radius: 12px;
@@ -98,7 +102,43 @@ header .logo {
 .navlink .actualp {
   color: black;
 }
+footer {
+ font-family: "Press Start 2P", system-ui;
+ background-color: white;
+ width:100%;
+ left: 0;
+ height: 100px;
+ margin-top: auto;
+}
 
+.rrss {
+  text-align: center;
+}
+
+.rrss a {
+  color: black;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.rrss a:hover .bi-twitter{
+  color: #0285FF;
+}
+.rrss a:hover .bi-bluesky{
+  color: #0285FF;
+}
+.rrss a:hover .bi-youtube{
+  color: #ff0000;
+}
+
+.rrss a:hover .bi-spotify{
+  color: #1DB954;
+}
+
+.copy {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 12px;
+}
 /* MÒBIL */
 @media (max-width: 768px) {
     .menu-icon {
@@ -110,7 +150,7 @@ header .logo {
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #1a1a1a;
+        background-color: #c5c5c5;
         overflow: hidden;
         /* Estat tancat */
         max-height: 0;
